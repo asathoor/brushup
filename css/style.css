@@ -1,0 +1,20 @@
+/**
+ * file: style.css
+ * purpose: effects ...
+ **/
+
+body {
+	background-color: pink;
+}
+
+article {
+	width: 26rem;
+}
+
+h1 {
+
+}
+
+#first {
+	width: 10rem;
+}
