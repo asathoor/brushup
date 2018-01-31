@@ -32,9 +32,18 @@
 
 /* trigger transform by hover? */
 
+/* transitions m. hover event */
+
 #first {
-	position: relative;
-	width: 375px;
-    animation-name: example2;
-    animation-duration: 6s;
+    width: 100px;
+    height: 100px;
+    /* overflow: hidden; */
+    background: red;
+    -webkit-transition: width 2s, height 4s; /* For Safari 3.1 to 6.0 */
+    transition: width 2s, height 4s;
+}
+
+#first:hover {
+    width: 300px;
+    height: 300px;
 }
