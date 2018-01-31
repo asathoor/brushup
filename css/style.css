@@ -3,18 +3,38 @@
  * purpose: effects ...
  **/
 
-body {
-	background-color: pink;
+/* The animation code */
+@keyframes example {
+    from {background-color: pink;}
+    to {background-color: yellow;}
 }
 
-article {
-	width: 26rem;
+/* More complex: step by step */
+@keyframes example2 {
+    0%   {
+    		background-color: red;
+    		width: 100px;
+    	}
+    25%  {background-color: yellow;}
+    50%  {background-color: blue;}
+    100% {
+    	background-color: green;
+		width: 200px;
+		left: 111px;  
+    }
 }
 
-h1 {
+/* class vs. id */
 
-}
+/* fade in fade out? */
+
+/* transform image: square to circle? */
+
+/* trigger transform by hover? */
 
 #first {
-	width: 10rem;
+	position: relative;
+	width: 375px;
+    animation-name: example2;
+    animation-duration: 6s;
 }
