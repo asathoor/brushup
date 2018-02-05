@@ -3,18 +3,50 @@
  * purpose: effects ...
  **/
 
-body {
-	background-color: pink;
+/* TRANSISTION: The animation code */
+@keyframes andersAnd {
+    from {
+			background-color: pink;
+			font-size: 2rem;
+			width: 300px;
+		}
+    to {
+			background-color: yellow;
+			font-size: 4rem;
+			width: 500px;
+		}
 }
 
-article {
-	width: 26rem;
+@keyframes bedstemorAnd {
+    0%   {
+			background-color: red;
+			width: 200px;
+		}
+    25%  {
+			background-color: yellow;
+						width: 700px;
+			}
+    50%  {
+			background-color: blue;
+						width: 400px;
+			}
+    100% {
+			background-color: green;
+						width: 200px;
+		}
 }
 
 h1 {
-
+    animation-name: andersAnd;
+    animation-duration: 2s;
+		animation-timing-function: ease-in-out;
+		/*animation-iteration-count: infinite; */
 }
 
-#first {
-	width: 10rem;
+p {
+	animation-name: bedstemorAnd;
+	animation-duration: 2s;
 }
+
+
+
