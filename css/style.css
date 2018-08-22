@@ -36,6 +36,10 @@
 		}
 }
 
+body {
+  background-image: url(images/bro_800-x-450.JPG);
+}
+
 h1 {
     animation-name: andersAnd;
     animation-duration: 2s;
@@ -47,6 +51,3 @@ p {
 	animation-name: bedstemorAnd;
 	animation-duration: 2s;
 }
-
-
-
