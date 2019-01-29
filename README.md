@@ -11,7 +11,7 @@ Her er noget tekst.
 
 ## Jeg er en niveau 1 overskrift a la h2
 
-[Danmarks Radio]{https://www.dr.dk}
+[Danmarks Radio](https://www.dr.dk)
 
 
 / petj
