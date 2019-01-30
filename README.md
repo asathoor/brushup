@@ -4,6 +4,7 @@ afadfgaefaefaif=========================
 * module: Intro / fall 2018
 * purpose: repeat 1st semester markup with an interactive twist.
 
+<<<<<<< HEAD
 Her er noget tekst.
 
 * en liste
@@ -13,5 +14,8 @@ Her er noget tekst.
 
 [Danmarks Radio](https://www.dr.dk)
 
+=======
+Runde paranteser
+>>>>>>> Stuff
 
 / petj
