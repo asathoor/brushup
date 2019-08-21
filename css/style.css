@@ -8,9 +8,10 @@
 
 body {
   padding: 2rem;
-  background-color: #000;
   font-family: 'Lato', sans-serif;
   font-size: large;
+  background-image: url(../images/bro.jpg);
+  background-size:100% 100%;
 }
 
 img {
@@ -39,8 +40,44 @@ header a, footer a {
 }
 
 article, aside {
-  padding: 2rem;
+  position: relative;
+  height: 700px;
+  width: 100%;
 }
+
+@keyframes fraOgTil {
+    from {
+		  left: 100px;
+      top: 0;
+		}
+    to {
+			left: 500px;
+      top: 199px;
+		}
+}
+
+@keyframes brushUp {
+    0%   {top: 0px;}
+    25%  {top: 200px;}
+    50%  {top: 100px;}
+    75%  {top: 200px;}
+    100% {top: 333px;}
+}
+
+/* ---- her er den ---*/
+#me {
+  position: relative;
+  background-image: url(../images/ufo.png);
+  background-repeat: no-repeat;
+  width: 200px;
+  height: 200px;
+  animation-name: brushUp;
+  animation-duration: 4s;
+
+  animation-timing-function: ease-out; /* easing */
+  animation-iteration-count: infinite; /* gentager evigt */
+}
+
 
 /* TRANSISTION: The animation code */
 /*
